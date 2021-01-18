@@ -8,8 +8,10 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: url('./bg.jpg') center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./background.jpg') center/cover fixed no-repeat;
   min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
