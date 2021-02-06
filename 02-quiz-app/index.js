@@ -1,27 +1,29 @@
 const quizData = [
   {
     question: 'What is the most used programming language in 2021?',
-    a: 'Java',
+    a: 'Javascript',
     b: 'C',
     c: 'Python',
-    d: 'JavaScript',
+    d: 'Java',
+    correct: 'a',
+  },
+  {
+    question:
+      'Which one of the following is the correct way for calling the JavaScript code?',
+    a: 'Preprocessor',
+    b: 'Triggering Event',
+    c: 'RMI',
+    d: 'Function/Method',
     correct: 'd',
   },
   {
-    question: 'Who is the President of US?',
-    a: 'Florin Pop',
-    b: 'Joe Biden',
-    c: 'Ivan Saldano',
-    d: 'Mihai Andrei',
-    correct: 'b',
-  },
-  {
-    question: 'What does HTML stand for?',
-    a: 'Hypertext Markup Language',
-    b: 'Cascading Style Sheet',
-    c: 'Javascript Object Notation',
-    d: 'Helicopters Terminals Motorboats Lamborginis',
-    correct: 'a',
+    question:
+      'In the JavaScript, which one of the following is not considered as an error?',
+    a: 'Syntax error',
+    b: 'Missing of semicolons',
+    c: 'Division by zero',
+    d: 'Missing of Bracket',
+    correct: 'c',
   },
   {
     question: 'What year was JavaScript launched?',
@@ -30,6 +32,15 @@ const quizData = [
     c: '1994',
     d: 'none of the above',
     correct: 'b',
+  },
+  {
+    question:
+      'Choose the correct snippet from the following to check if the variable "a" is not equal the "NULL"',
+    a: 'if(a!==null)',
+    b: 'if (a!)',
+    c: 'if(a!null)',
+    d: 'if(a!=null)',
+    correct: 'a',
   },
 ];
 
